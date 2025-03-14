@@ -1,0 +1,13 @@
+modbus_slave\mbrtu.o: ..\modbus\rtu\mbrtu.c
+modbus_slave\mbrtu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+modbus_slave\mbrtu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+modbus_slave\mbrtu.o: ..\modbus\port\port.h
+modbus_slave\mbrtu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+modbus_slave\mbrtu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+modbus_slave\mbrtu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+modbus_slave\mbrtu.o: ..\modbus\include\mb.h
+modbus_slave\mbrtu.o: ..\modbus\include\mbport.h
+modbus_slave\mbrtu.o: ..\modbus\include\mbproto.h
+modbus_slave\mbrtu.o: ..\modbus\rtu\mbrtu.h
+modbus_slave\mbrtu.o: ..\modbus\include\mbframe.h
+modbus_slave\mbrtu.o: ..\modbus\rtu\mbcrc.h

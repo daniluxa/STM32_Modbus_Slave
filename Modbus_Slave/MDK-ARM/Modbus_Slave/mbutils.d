@@ -1,0 +1,10 @@
+modbus_slave\mbutils.o: ..\modbus\functions\mbutils.c
+modbus_slave\mbutils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+modbus_slave\mbutils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+modbus_slave\mbutils.o: ..\modbus\port\port.h
+modbus_slave\mbutils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+modbus_slave\mbutils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+modbus_slave\mbutils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+modbus_slave\mbutils.o: ..\modbus\include\mb.h
+modbus_slave\mbutils.o: ..\modbus\include\mbport.h
+modbus_slave\mbutils.o: ..\modbus\include\mbproto.h
