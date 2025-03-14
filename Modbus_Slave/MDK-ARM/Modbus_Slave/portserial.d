@@ -3,9 +3,9 @@ modbus_slave\portserial.o: ..\modbus\port\port.h
 modbus_slave\portserial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
 modbus_slave\portserial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 modbus_slave\portserial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-modbus_slave\portserial.o: ..\modbus\include\mb.h
-modbus_slave\portserial.o: ..\modbus\include\mbport.h
-modbus_slave\portserial.o: ..\modbus\include\mbproto.h
+modbus_slave\portserial.o: ../modbus/include/mb.h
+modbus_slave\portserial.o: ../modbus/include/mbport.h
+modbus_slave\portserial.o: ../modbus/include/mbproto.h
 modbus_slave\portserial.o: ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal.h
 modbus_slave\portserial.o: ../Core/Inc/stm32f2xx_hal_conf.h
 modbus_slave\portserial.o: ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rcc.h
@@ -35,3 +35,5 @@ modbus_slave\portserial.o: ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_pwr
 modbus_slave\portserial.o: ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_tim.h
 modbus_slave\portserial.o: ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_tim_ex.h
 modbus_slave\portserial.o: ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_uart.h
+modbus_slave\portserial.o: ../Core/Inc/main.h
+modbus_slave\portserial.o: ../Core/Inc/usart.h

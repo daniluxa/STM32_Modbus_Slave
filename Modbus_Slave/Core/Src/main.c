@@ -24,7 +24,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "modbus_slave.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -45,7 +45,8 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+extern volatile USHORT usRegInputStart;
+extern volatile USHORT usRegInputBuf[REG_INPUT_NREGS];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -100,6 +101,9 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+		eMBPoll();
+    usRegInputBuf[REG_INPUT_NREGS - 2] =  HAL_GetTick() / 1000;
+    usRegInputBuf[REG_INPUT_NREGS - 1] =  HAL_GetTick();
   }
   /* USER CODE END 3 */
 }

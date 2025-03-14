@@ -3,9 +3,9 @@ modbus_slave\porttimer.o: ..\modbus\port\port.h
 modbus_slave\porttimer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
 modbus_slave\porttimer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 modbus_slave\porttimer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-modbus_slave\porttimer.o: ..\modbus\include\mb.h
-modbus_slave\porttimer.o: ..\modbus\include\mbport.h
-modbus_slave\porttimer.o: ..\modbus\include\mbproto.h
+modbus_slave\porttimer.o: ../modbus/include/mb.h
+modbus_slave\porttimer.o: ../modbus/include/mbport.h
+modbus_slave\porttimer.o: ../modbus/include/mbproto.h
 modbus_slave\porttimer.o: ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal.h
 modbus_slave\porttimer.o: ../Core/Inc/stm32f2xx_hal_conf.h
 modbus_slave\porttimer.o: ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rcc.h

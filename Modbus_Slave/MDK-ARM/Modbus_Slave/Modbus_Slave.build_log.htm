@@ -27,16 +27,62 @@ Project File Date:  03/14/2025
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Modbus_Slave'
+compiling mbfuncdisc.c...
+../modbus/port/port.h(32): warning:  #1295-D: Deprecated declaration EnterCriticalSection - give arg types
+  extern void EnterCriticalSection();
+../modbus/port/port.h(33): warning:  #1295-D: Deprecated declaration ExitCriticalSection - give arg types
+  extern void ExitCriticalSection();
+..\modbus\functions\mbfuncdisc.c: 2 warnings, 0 errors
+compiling mbfuncinput.c...
+../modbus/port/port.h(32): warning:  #1295-D: Deprecated declaration EnterCriticalSection - give arg types
+  extern void EnterCriticalSection();
+../modbus/port/port.h(33): warning:  #1295-D: Deprecated declaration ExitCriticalSection - give arg types
+  extern void ExitCriticalSection();
+..\modbus\functions\mbfuncinput.c: 2 warnings, 0 errors
+compiling mbfunccoils.c...
+../modbus/port/port.h(32): warning:  #1295-D: Deprecated declaration EnterCriticalSection - give arg types
+  extern void EnterCriticalSection();
+../modbus/port/port.h(33): warning:  #1295-D: Deprecated declaration ExitCriticalSection - give arg types
+  extern void ExitCriticalSection();
+..\modbus\functions\mbfunccoils.c: 2 warnings, 0 errors
+compiling mbfuncother.c...
+../modbus/port/port.h(32): warning:  #1295-D: Deprecated declaration EnterCriticalSection - give arg types
+  extern void EnterCriticalSection();
+../modbus/port/port.h(33): warning:  #1295-D: Deprecated declaration ExitCriticalSection - give arg types
+  extern void ExitCriticalSection();
+..\modbus\functions\mbfuncother.c: 2 warnings, 0 errors
+compiling mbfuncholding.c...
+../modbus/port/port.h(32): warning:  #1295-D: Deprecated declaration EnterCriticalSection - give arg types
+  extern void EnterCriticalSection();
+../modbus/port/port.h(33): warning:  #1295-D: Deprecated declaration ExitCriticalSection - give arg types
+  extern void ExitCriticalSection();
+..\modbus\functions\mbfuncholding.c: 2 warnings, 0 errors
+compiling mb.c...
+../modbus/port/port.h(32): warning:  #1295-D: Deprecated declaration EnterCriticalSection - give arg types
+  extern void EnterCriticalSection();
+../modbus/port/port.h(33): warning:  #1295-D: Deprecated declaration ExitCriticalSection - give arg types
+  extern void ExitCriticalSection();
+..\modbus\mb.c: 2 warnings, 0 errors
+compiling main.c...
+../modbus/port/port.h(32): warning:  #1295-D: Deprecated declaration EnterCriticalSection - give arg types
+  extern void EnterCriticalSection();
+../modbus/port/port.h(33): warning:  #1295-D: Deprecated declaration ExitCriticalSection - give arg types
+  extern void ExitCriticalSection();
+../Core/Inc/modbus_slave.h(9): warning:  #1-D: last line of file ends without a newline
+  #define REG_INPUT_NREGS 8
+../Core/Src/main.c: 3 warnings, 0 errors
 compiling modbus_slave.c...
+../modbus/port/port.h(32): warning:  #1295-D: Deprecated declaration EnterCriticalSection - give arg types
+  extern void EnterCriticalSection();
+../modbus/port/port.h(33): warning:  #1295-D: Deprecated declaration ExitCriticalSection - give arg types
+  extern void ExitCriticalSection();
+../Core/Inc/modbus_slave.h(9): warning:  #1-D: last line of file ends without a newline
+  #define REG_INPUT_NREGS 8
+..\Core\Src\modbus_slave.c: 3 warnings, 0 errors
 linking...
-Modbus_Slave\Modbus_Slave.axf: Error: L6218E: Undefined symbol eMBRegCoilsCB (referred from mbfunccoils.o).
-Modbus_Slave\Modbus_Slave.axf: Error: L6218E: Undefined symbol eMBRegDiscreteCB (referred from mbfuncdisc.o).
-Modbus_Slave\Modbus_Slave.axf: Error: L6218E: Undefined symbol eMBRegHoldingCB (referred from mbfuncholding.o).
-Modbus_Slave\Modbus_Slave.axf: Error: L6218E: Undefined symbol eMBRegInputCB (referred from mbfuncinput.o).
-Not enough information to list image symbols.
-Not enough information to list load addresses in the image map.
-Finished: 2 information, 0 warning and 4 error messages.
-"Modbus_Slave\Modbus_Slave.axf" - 4 Error(s), 0 Warning(s).
+Program Size: Code=9452 RO-data=444 RW-data=240 ZI-data=3344  
+FromELF: creating hex file...
+"Modbus_Slave\Modbus_Slave.axf" - 0 Error(s), 18 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -60,8 +106,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.6.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Target not created.
-Build Time Elapsed:  00:00:00
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>

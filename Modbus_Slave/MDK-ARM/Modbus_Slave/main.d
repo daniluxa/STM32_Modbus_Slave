@@ -33,3 +33,11 @@ modbus_slave\main.o: ../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_uart.h
 modbus_slave\main.o: ../Core/Inc/tim.h
 modbus_slave\main.o: ../Core/Inc/usart.h
 modbus_slave\main.o: ../Core/Inc/gpio.h
+modbus_slave\main.o: ../Core/Inc/modbus_slave.h
+modbus_slave\main.o: ../modbus/include/mb.h
+modbus_slave\main.o: ../modbus/port/port.h
+modbus_slave\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+modbus_slave\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+modbus_slave\main.o: ../modbus/include/mbport.h
+modbus_slave\main.o: ../modbus/include/mbproto.h
+modbus_slave\main.o: ../modbus/port/mt_port.h

@@ -25,7 +25,8 @@
 #include "mb.h"
 #include "mbport.h"
 #include "stm32f2xx_hal.h"
-
+#include "main.h"
+#include "usart.h"
 
 
 /* ----------------------- Static functions ---------------------------------*/
@@ -53,6 +54,7 @@ void vMBPortSerialEnable(BOOL xRxEnable, BOOL xTxEnable)
   }
   else
   {
+		HAL_GPIO_WritePin(RS_TR_GPIO_Port, RS_TR_Pin, GPIO_PIN_RESET);
     HAL_UART_Receive_IT(modbusUart, &rxByte, 1);
   }
 
@@ -64,9 +66,24 @@ void vMBPortSerialEnable(BOOL xRxEnable, BOOL xTxEnable)
   {
     if (modbusUart->gState == HAL_UART_STATE_READY)
     {
+			HAL_GPIO_WritePin(RS_TR_GPIO_Port, RS_TR_Pin, GPIO_PIN_SET);
       prvvUARTTxReadyISR();
     }
   }
+
+	/*if (xRxEnable) { 
+		
+			HAL_GPIO_WritePin(RS_TR_GPIO_Port, RS_TR_Pin, GPIO_PIN_RESET);
+			__HAL_UART_ENABLE_IT(&huart3, UART_IT_RXNE); 
+	} else {
+			__HAL_UART_DISABLE_IT(&huart3, UART_IT_RXNE); 
+	}
+	if (xTxEnable) { 
+			HAL_GPIO_WritePin(RS_TR_GPIO_Port, RS_TR_Pin, GPIO_PIN_SET);
+			__HAL_UART_ENABLE_IT(&huart3, UART_IT_TXE);
+	} else {
+			__HAL_UART_DISABLE_IT(&huart3, UART_IT_TXE);
+	}*/
 }
 
 
