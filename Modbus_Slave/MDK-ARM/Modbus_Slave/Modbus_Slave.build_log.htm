@@ -27,62 +27,22 @@ Project File Date:  03/14/2025
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Modbus_Slave'
-compiling mbfuncdisc.c...
-../modbus/port/port.h(32): warning:  #1295-D: Deprecated declaration EnterCriticalSection - give arg types
-  extern void EnterCriticalSection();
-../modbus/port/port.h(33): warning:  #1295-D: Deprecated declaration ExitCriticalSection - give arg types
-  extern void ExitCriticalSection();
-..\modbus\functions\mbfuncdisc.c: 2 warnings, 0 errors
-compiling mbfuncinput.c...
-../modbus/port/port.h(32): warning:  #1295-D: Deprecated declaration EnterCriticalSection - give arg types
-  extern void EnterCriticalSection();
-../modbus/port/port.h(33): warning:  #1295-D: Deprecated declaration ExitCriticalSection - give arg types
-  extern void ExitCriticalSection();
-..\modbus\functions\mbfuncinput.c: 2 warnings, 0 errors
-compiling mbfunccoils.c...
-../modbus/port/port.h(32): warning:  #1295-D: Deprecated declaration EnterCriticalSection - give arg types
-  extern void EnterCriticalSection();
-../modbus/port/port.h(33): warning:  #1295-D: Deprecated declaration ExitCriticalSection - give arg types
-  extern void ExitCriticalSection();
-..\modbus\functions\mbfunccoils.c: 2 warnings, 0 errors
-compiling mbfuncother.c...
-../modbus/port/port.h(32): warning:  #1295-D: Deprecated declaration EnterCriticalSection - give arg types
-  extern void EnterCriticalSection();
-../modbus/port/port.h(33): warning:  #1295-D: Deprecated declaration ExitCriticalSection - give arg types
-  extern void ExitCriticalSection();
-..\modbus\functions\mbfuncother.c: 2 warnings, 0 errors
-compiling mbfuncholding.c...
-../modbus/port/port.h(32): warning:  #1295-D: Deprecated declaration EnterCriticalSection - give arg types
-  extern void EnterCriticalSection();
-../modbus/port/port.h(33): warning:  #1295-D: Deprecated declaration ExitCriticalSection - give arg types
-  extern void ExitCriticalSection();
-..\modbus\functions\mbfuncholding.c: 2 warnings, 0 errors
-compiling mb.c...
-../modbus/port/port.h(32): warning:  #1295-D: Deprecated declaration EnterCriticalSection - give arg types
-  extern void EnterCriticalSection();
-../modbus/port/port.h(33): warning:  #1295-D: Deprecated declaration ExitCriticalSection - give arg types
-  extern void ExitCriticalSection();
-..\modbus\mb.c: 2 warnings, 0 errors
-compiling main.c...
-../modbus/port/port.h(32): warning:  #1295-D: Deprecated declaration EnterCriticalSection - give arg types
-  extern void EnterCriticalSection();
-../modbus/port/port.h(33): warning:  #1295-D: Deprecated declaration ExitCriticalSection - give arg types
-  extern void ExitCriticalSection();
-../Core/Inc/modbus_slave.h(9): warning:  #1-D: last line of file ends without a newline
-  #define REG_INPUT_NREGS 8
-../Core/Src/main.c: 3 warnings, 0 errors
 compiling modbus_slave.c...
 ../modbus/port/port.h(32): warning:  #1295-D: Deprecated declaration EnterCriticalSection - give arg types
   extern void EnterCriticalSection();
 ../modbus/port/port.h(33): warning:  #1295-D: Deprecated declaration ExitCriticalSection - give arg types
   extern void ExitCriticalSection();
-../Core/Inc/modbus_slave.h(9): warning:  #1-D: last line of file ends without a newline
-  #define REG_INPUT_NREGS 8
-..\Core\Src\modbus_slave.c: 3 warnings, 0 errors
+../Core/Inc/modbus_slave.h(11): warning:  #1-D: last line of file ends without a newline
+  void modbusInit();
+../Core/Inc/modbus_slave.h(11): warning:  #1295-D: Deprecated declaration modbusInit - give arg types
+  void modbusInit();
+..\Core\Src\modbus_slave.c(45): warning:  #550-D: variable "eStatus"  was set but never used
+  	eMBErrorCode eStatus = MB_ENOERR;
+..\Core\Src\modbus_slave.c: 5 warnings, 0 errors
 linking...
-Program Size: Code=9452 RO-data=444 RW-data=240 ZI-data=3344  
+Program Size: Code=12264 RO-data=1056 RW-data=256 ZI-data=3600  
 FromELF: creating hex file...
-"Modbus_Slave\Modbus_Slave.axf" - 0 Error(s), 18 Warning(s).
+"Modbus_Slave\Modbus_Slave.axf" - 0 Error(s), 5 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -106,7 +66,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.6.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

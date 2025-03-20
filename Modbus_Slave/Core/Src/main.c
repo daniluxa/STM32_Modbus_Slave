@@ -91,7 +91,7 @@ int main(void)
   MX_TIM5_Init();
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
-
+	modbusInit();
   /* USER CODE END 2 */
 
   /* Infinite loop */

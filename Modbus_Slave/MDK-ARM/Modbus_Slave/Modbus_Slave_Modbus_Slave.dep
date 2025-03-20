@@ -1,7 +1,7 @@
 Dependencies for Project 'Modbus_Slave', Target 'Modbus_Slave': (DO NOT MODIFY !)
 F (startup_stm32f205xx.s)(0x67D3C7C3)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Modbus_Slave-IC:\Users\shumkin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\shumkin\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F2xx\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "STM32F205xx SETA 1"--list startup_stm32f205xx.lst --xref -o modbus_slave\startup_stm32f205xx.o --depend modbus_slave\startup_stm32f205xx.d)
-F (..\Core\Src\modbus_slave.c)(0x67D3D93E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F2xx_HAL_Driver/Inc -I ../Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F2xx/Include -I ../Drivers/CMSIS/Include -I ../modbus -I ../modbus/include -I ../modbus/functions -I ../modbus/port -I ../modbus/rtu-I.\RTE\_Modbus_Slave-IC:\Users\shumkin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\shumkin\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F2xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F205xx -DUSE_HAL_DRIVER -DSTM32F205xx-o modbus_slave\modbus_slave.o --omf_browse modbus_slave\modbus_slave.crf --depend modbus_slave\modbus_slave.d)
-I (../Core/Inc/modbus_slave.h)(0x67D3CD01)
+F (..\Core\Src\modbus_slave.c)(0x67DBC6BE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F2xx_HAL_Driver/Inc -I ../Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F2xx/Include -I ../Drivers/CMSIS/Include -I ../modbus -I ../modbus/include -I ../modbus/functions -I ../modbus/port -I ../modbus/rtu-I.\RTE\_Modbus_Slave-IC:\Users\shumkin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\shumkin\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F2xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F205xx -DUSE_HAL_DRIVER -DSTM32F205xx-o modbus_slave\modbus_slave.o --omf_browse modbus_slave\modbus_slave.crf --depend modbus_slave\modbus_slave.d)
+I (../Core/Inc/modbus_slave.h)(0x67DBC39E)
 I (../Core/Inc/main.h)(0x67D3C7C0)
 I (../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal.h)(0x64C360A4)
 I (../Core/Inc/stm32f2xx_hal_conf.h)(0x67D3C506)
@@ -39,7 +39,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5CEBC030)
 I (../modbus/include/mbport.h)(0x5B9AC2A6)
 I (../modbus/include/mbproto.h)(0x5B9AC2A6)
 I (../modbus/port/mt_port.h)(0x67D3C61F)
-F (../Core/Src/main.c)(0x67D3CD05)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F2xx_HAL_Driver/Inc -I ../Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F2xx/Include -I ../Drivers/CMSIS/Include -I ../modbus -I ../modbus/include -I ../modbus/functions -I ../modbus/port -I ../modbus/rtu-I.\RTE\_Modbus_Slave-IC:\Users\shumkin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\shumkin\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F2xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F205xx -DUSE_HAL_DRIVER -DSTM32F205xx-o modbus_slave\main.o --omf_browse modbus_slave\main.crf --depend modbus_slave\main.d)
+F (../Core/Src/main.c)(0x67DBC3A8)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F2xx_HAL_Driver/Inc -I ../Drivers/STM32F2xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F2xx/Include -I ../Drivers/CMSIS/Include -I ../modbus -I ../modbus/include -I ../modbus/functions -I ../modbus/port -I ../modbus/rtu-I.\RTE\_Modbus_Slave-IC:\Users\shumkin\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\shumkin\AppData\Local\Arm\Packs\Keil\STM32F2xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F2xx\Include-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F205xx -DUSE_HAL_DRIVER -DSTM32F205xx-o modbus_slave\main.o --omf_browse modbus_slave\main.crf --depend modbus_slave\main.d)
 I (../Core/Inc/main.h)(0x67D3C7C0)
 I (../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal.h)(0x64C360A4)
 I (../Core/Inc/stm32f2xx_hal_conf.h)(0x67D3C506)
@@ -73,7 +73,7 @@ I (../Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_uart.h)(0x64C360A4)
 I (../Core/Inc/tim.h)(0x67D3C505)
 I (../Core/Inc/usart.h)(0x67D3C505)
 I (../Core/Inc/gpio.h)(0x67D3C505)
-I (../Core/Inc/modbus_slave.h)(0x67D3CD01)
+I (../Core/Inc/modbus_slave.h)(0x67DBC39E)
 I (../modbus/include/mb.h)(0x5B9AC2A6)
 I (../modbus/port/port.h)(0x62495CF6)
 I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x5CEBC026)
